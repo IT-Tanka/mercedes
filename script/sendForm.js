@@ -16,8 +16,7 @@ formItems.addEventListener('submit',(event)=>{
     .then(response=>
         {if (response.status===200 || response.status===201) 
             {
-            return response.json();
-                // console.log(response.json())}
+            return response.json();                
             }
         else{
             throw new Error(response.status);
@@ -26,7 +25,6 @@ formItems.addEventListener('submit',(event)=>{
     .then(data=>
         {alert('Данные успешно сохранены');
         formItems.reset();
-        // console.log(data)
         })
     .catch(error=>{alert('Произошла ошибка, статус '+ error.message)});
 })
