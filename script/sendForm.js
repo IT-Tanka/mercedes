@@ -8,9 +8,7 @@ formItems.addEventListener('submit',(event)=>{
             data[name]=value;
         }
     }
-    // console.log(data);
-    // console.log('JSON.stringify(data): ', JSON.stringify(data));
-
+    
     fetch('https://jsonplaceholder.typicode.com/posts'
         ,{method:'POST', body: JSON.stringify(data)}
     )
