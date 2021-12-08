@@ -1,7 +1,9 @@
 # mercedes
-### 🚗 web-страница презентация авто mercedes A-200
+### 🚗 web-page presentation of car mercedes A-200
 
-Учебный проект
-### Выполнила: Я
-### Применены языки:
+training project
+### executed: by me
+### languages used:
 - JS
+- HTML
+- CSS
